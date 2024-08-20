@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header Styles */
+.blog-header {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 0;
+  border-bottom: 4px solid #2980b9;
+  text-align: center;
+}
+
+.blog-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.blog-header nav ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.blog-header nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.blog-header nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.blog-header nav ul li a:hover {
+  color: #2980b9;
+}
+
+/* Posts Grid Styles */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.post-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-card .content {
+  padding: 20px;
+}
+
+.post-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.post-card .date {
+  font-size: 0.9em;
+  color: #95a5a6;
+  margin-bottom: 15px;
+}
+
+.post-card p {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer nav ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+  color: #2980b9;
+}
